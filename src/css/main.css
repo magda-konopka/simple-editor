@@ -1,14 +1,12 @@
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   background: #33186b;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 .header {
   width: 261px;
@@ -17,24 +15,20 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
-  line-height: 56px;
-}
+  line-height: 56px; }
 
 #tekstSpace {
   width: 620px;
   height: 343px;
-
   background: #ffffff;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 15px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
-}
+  line-height: 28px; }
 
 .loadButton {
   height: 36px;
@@ -45,15 +39,12 @@ body {
   border-radius: 0px;
   margin-left: 345px;
   margin-top: 15px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .saveButton {
   width: 96px;
@@ -61,59 +52,44 @@ body {
   margin-top: 15px;
   font-size: 24px;
   margin-left: 80px;
-
   background: #389c15;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .wtf {
   left: 0%;
   right: 7.83%;
   top: 47.37%;
   bottom: -3.68%;
-
   background: #faf9f9;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transform: rotate(-20.84deg);
-}
+  transform: rotate(-20.84deg); }
 
 .rectangle {
   height: 42px;
   width: 101px;
   top: 36px;
-
   margin-left: auto;
-
   background: #faf9f9;
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transform: rotate(-20.84deg);
-
-  h1 {
+  transform: rotate(-20.84deg); }
+  .rectangle h1 {
     height: 42px;
     width: 101px;
-
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-
     color: #33186b;
-
     border: 2px solid #33186b;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
     text-align: center;
-    margin-top: 0%;
-  }
-}
+    margin-top: 0%; }

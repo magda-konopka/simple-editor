@@ -1,9 +1,9 @@
-import '../scss/main.scss';
+function load() {
+  document.getElementById("tekstSpace").value = "Kocham Pawła";
+}
 
-// uncomment the lines below to enable PWA
-// import {registerSW} from './pwa.js';
-// registerSW();
-
-/* place your code below */
-
-console.log('HELLO 🚀')
+function save() {
+  var text = document.getElementById("tekstSpace").value;
+  console.log(text);
+  document.getElementById("tekstSpace").value = "";
+}
